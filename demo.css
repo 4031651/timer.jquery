@@ -1,0 +1,28 @@
+.output {
+	border: 3px double #000;
+	margin-right: 30px;
+	padding: 5px;
+	text-align: center;
+	width: 100px;
+}
+
+table {
+	color: #333333;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
+}
+
+table tr {
+    background-color: #FFFFFF;
+    border-top: 1px solid #CCCCCC;
+}
+
+table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+
+table td {
+    border: 1px solid #CCCCCC;
+    padding: 6px;
+}
